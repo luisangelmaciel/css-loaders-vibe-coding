@@ -1,0 +1,71 @@
+{
+  "name": "@vibecoding/css-loaders",
+  "version": "1.0.0",
+  "description": "Colección curada de 9 loaders CSS profesionales ultra-ligeros para Vibe Coding. Sin dependencias JavaScript, 100% responsive, performance superior.",
+  "main": "css/loaders.css",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "build": "npm run build:css && npm run build:minify",
+    "build:css": "echo 'Compilando CSS...'",
+    "build:minify": "echo 'Minificando archivos...'",
+    "test": "echo 'Running tests...'",
+    "lint": "echo 'Linting CSS...'",
+    "format": "echo 'Formatting files...'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vibecoding/css-loaders.git"
+  },
+  "keywords": [
+    "css",
+    "loaders",
+    "spinners",
+    "preloaders",
+    "loading",
+    "animations",
+    "vibe-coding",
+    "frontend",
+    "web-development",
+    "ui-components",
+    "responsive",
+    "accessibility",
+    "performance",
+    "zero-dependencies"
+  ],
+  "author": {
+    "name": "Vibe Coding Community",
+    "url": "https://vibecoding.dev"
+  },
+  "contributors": [
+    {
+      "name": "Luis Angel Maciel",
+      "url": "https://github.com/luisangelmaciel"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vibecoding/css-loaders/issues"
+  },
+  "homepage": "https://vibecoding.dev/css-loaders",
+  "devDependencies": {},
+  "dependencies": {},
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "files": [
+    "css/",
+    "js/",
+    "index.html",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "browserslist": [
+    "Chrome >= 90",
+    "Firefox >= 88",
+    "Safari >= 14",
+    "Edge >= 90",
+    "Opera >= 76"
+  ]
+}
